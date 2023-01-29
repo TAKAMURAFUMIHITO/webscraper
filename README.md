@@ -10,6 +10,7 @@ const URL = "ページのURL";
 ```
 
 ## 取得するデータの指定
+-index.js
 ```
 $(".クラス名", htmlParser).each(function () {
     const title = $(this).find(".クラス名").text();
